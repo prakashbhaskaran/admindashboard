@@ -1,1 +1,1 @@
-[https://p64-dashboard.netlify.app/](APP LINK)
+https://p64-dashboard.netlify.app/
