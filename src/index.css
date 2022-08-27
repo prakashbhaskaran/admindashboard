@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-home {
+  background: url("../public/imgs/icons.png") no-repeat -4px -4px;
+  width: 16px;
+  height: 16px;
+  /* background: url("../public/imgs/icons.png") 0px 0px; */
+}
+.bg-home:hover {
+  background: url("../public/imgs/icons.png") no-repeat -32px -4px;
+  width: 16px;
+  height: 16px;
+}
+
+.bg-ham {
+  background: url("../public/imgs/icons.png") no-repeat -1px -42px;
+  width: 23px;
+  height: 14px;
+}
+
+.bg-dashboard {
+  background: url("../public/imgs/icons.png") no-repeat -59px -3px;
+  width: 18px;
+  height: 18px;
+}
+.bg-dashboard:hover {
+  background: url("../public/imgs/icons.png") no-repeat -87px -3px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-inbox {
+  background: url("../public/imgs/icons.png") no-repeat -115px -4px;
+  width: 18px;
+  height: 16px;
+}
+.bg-inbox:hover {
+  background: url("../public/imgs/icons.png") no-repeat -143px -4px;
+  width: 18px;
+  height: 16px;
+}
+
+.bg-products {
+  background: url("../public/imgs/icons.png") no-repeat -171px -3px;
+  width: 18px;
+  height: 18px;
+}
+.bg-products:hover {
+  background: url("../public/imgs/icons.png") no-repeat -199px -3px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-admin {
+  background: url("../public/imgs/icons.png") no-repeat -227px -3px;
+  width: 18px;
+  height: 18px;
+}
+.bg-admin:hover {
+  background: url("../public/imgs/icons.png") no-repeat -255px -3px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-twitter {
+  background: url("../public/imgs/icons.png") no-repeat -283px -4px;
+  width: 18px;
+  height: 16px;
+}
+
+.bg-fb {
+  background: url("../public/imgs/icons.png") no-repeat -311px -3px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-linkedin {
+  background: url("../public/imgs/icons.png") no-repeat -338px -2px;
+  width: 20px;
+  height: 20px;
+}
+
+.bg-whatsapp {
+  background: url("../public/imgs/icons.png") no-repeat -367px -3px;
+  width: 18px;
+  height: 18px;
+}
+
+.bg-logout {
+  background: url("../public/imgs/icons.png") no-repeat -88px -40px;
+  width: 16px;
+  height: 16px;
+}
+
+.bg-play {
+  background: url("../public/imgs/icons.png") no-repeat -117px -39px;
+  width: 16px;
+  height: 18px;
+}
+
+.bg-options {
+  background: url("../public/imgs/icons.png") no-repeat -150px -38px;
+  width: 4px;
+  height: 20px;
+}
+
+.bg-edit {
+  background: url("../public/imgs/icons.png") no-repeat -261px -44px;
+  width: 8px;
+  height: 9px;
+}
+
+.bg-search {
+  background: url("../public/imgs/icons.png") no-repeat -171px -40px;
+  width: 17px;
+  height: 17px;
+}
+
+.bg-bell {
+  background: url("../public/imgs/icons.png") no-repeat -200px -39px;
+  width: 16px;
+  height: 18px;
+}
+
+.bg-plus {
+  background: url("../public/imgs/icons.png") no-repeat -288px -43px;
+  width: 11px;
+  height: 11px;
+}
+
+.bg-dropdown {
+  background: url("../public/imgs/icons.png") no-repeat -230px -46px;
+  width: 12px;
+  height: 7px;
+}
+.bg-dropup {
+  background: url("../public/imgs/icons.png") no-repeat -230px -46px;
+  width: 12px;
+  height: 7px;
+  transform: rotate(180deg);
+}
+
+.bg-profile {
+  background: url("../public/imgs/icons.png") no-repeat -33px -40px;
+  width: 15px;
+  height: 16px;
+}
+
+.bg-bill {
+  background: url("../public/imgs/icons.png") no-repeat -60px -39px;
+  width: 15px;
+  height: 19px;
+}
+
+.list {
+  position: relative;
+}
+.list:hover {
+  background-color: #3c3b54;
+}
+
+.active {
+  background-color: #3c3b54;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #a3a0fb;
+  left: 0;
+}
+
+.bg-dashboard.bg-icon.live {
+  background: url("../public/imgs/icons.png") no-repeat -87px -3px;
+  width: 18px;
+  height: 18px;
+}
